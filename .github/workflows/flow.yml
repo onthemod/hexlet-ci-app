@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: make install
-        run: make build
-        run: make start
-        run: make test
-        run: make lint
+             make build
+             make start
+             make test
+             make lint
